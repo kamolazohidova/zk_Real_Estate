@@ -91,6 +91,11 @@ a {
     text-decoration: none;
 }
 
+*:focus {
+    outline: 1px dashed var(--color-dark);
+    outline-offset: 3px;
+}
+
             /* CONTAINER  */
 .container {
     width: 100%;
